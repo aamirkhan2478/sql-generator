@@ -28,7 +28,7 @@ const Home = () => {
     const formData = new FormData(event.target);
     const formDataObj = Object.fromEntries(formData.entries());
     const configuration = new Configuration({
-      apiKey:process.env.REACT_APP_API_KEY,
+      apiKey: import.meta.env.VITE_API_KEY,
     });
 
     const openai = new OpenAIApi(configuration);
