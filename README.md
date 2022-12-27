@@ -2,11 +2,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 RECIPE-RUBY-APP <a name="about-project"></a>
+# 📖 SQL GENERATOR <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**Recipe-ruby app** This App keeps track of all your recipes, ingredients, and inventory. It allows you to save ingredients, keep track of what you have in store, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.
+**Sql Generator app** This is AI sql generator app where you can search your sql query by enter you english sentence and this app will convert your english word into sql query you want. 
 
 ## 🛠 Built With <a name="built-with">Rails</a>
 
@@ -17,24 +17,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Ruby on Rails</a></li>
+    <li><a href="https://reactjs.org/">React Js</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 
 <!-- LIVE DEMO -->
 
@@ -62,20 +47,20 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ npm i
 ```
 
 
 ### Setup
 
-Clone this repository to your desired folder: git@github.com:aamirkhan2478/ruby-recipe-app.git
+Clone this repository to your desired folder: git@github.com:aamirkhan2478/sql-generator.git
 
 
  commands:
 
 ```sh
   cd Sites
-  git clone @github.com:aamirkhan2478/ruby-recipe-app.git
+  git clone git@github.com:aamirkhan2478/sql-generator.git
 ```
 -
 
@@ -87,8 +72,8 @@ Install this project with:
 Example command:
 
 ```sh
-  cd recipe-ruby-app
-  gem install
+  cd sql-generator
+  npm i
 ```
 -
 
@@ -99,30 +84,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-
-Example command:
-
-```sh
-  bin/rails rspec spec/models/user_test.rb
-```
--
-
-### Deployment
-
-You can deploy this project using:
-
-
-Example: heroku
-
-```sh
-
+  npm run dev
 ```
 
 
@@ -139,11 +101,6 @@ Example: heroku
 - GitHub: [@Josphat205](https://github.com/aamirkhan2478) 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/aamir-khan-302a44237/)
 
-
-**Josphat Kiploman**
-
-- GitHub: [@Josphat205](https://github.com/Josphat205) 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/josphatloman/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
